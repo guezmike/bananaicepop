@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/custom_list"
+        android:layout_width="166dp"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageButton1"
+        android:dividerHeight="1dp">
+    </ListView>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/clear_background"
+        android:src="@drawable/button_female_hat" 
+        android:onClick="kinveyQuery"
+        android:tag="hat"/>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clear_background"
+        android:src="@drawable/button_glasses" 
+        android:onClick="kinveyQuery"
+        android:tag="glasses"/>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clear_background"
+        android:src="@drawable/button_dress" 
+        android:onClick="kinveyQuery"
+        android:tag="dress"/>
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clear_background"
+        android:src="@drawable/button_pants" 
+    	android:onClick="kinveyQuery"
+    	android:tag="pants"/>
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clear_background"
+        android:src="@drawable/button_tie" 
+        android:onClick="kinveyQuery"
+        android:tag="tie"/>
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clear_background"
+        android:src="@drawable/button_shirt" 
+        android:onClick="kinveyQuery"
+        android:tag="shirt"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="55dp"
+        android:layout_toLeftOf="@+id/Button01"
+        android:background="@drawable/button_background"
+        android:text="new_item" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/custom_list"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/button_background"
+        android:text="@string/favorite" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageButton3"
+        android:background="@drawable/clear_background"
+        android:onClick="kinveyQuery"
+        android:src="@drawable/button_male_shoes"
+        android:tag="shoes" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageButton8"
+        android:background="@drawable/clear_background"
+        android:onClick="kinveyQuery"
+        android:src="@drawable/button_bikini"
+        android:tag="bikini" />
+
+</RelativeLayout>
